@@ -1,0 +1,9 @@
+{application, kv,
+ [
+  {description, "KVX Sample"},
+  {vsn, "0.4"},
+  {registered, []},
+  {applications, [kernel,stdlib]},
+  {mod, { kv, []}},
+  {env, []}
+ ]}.
